@@ -1,7 +1,7 @@
 # NML_2024_Project
 
 ## Dataset
-Goodbooks-10K [Goodbooks-10](https://github.com/zygmuntz/goodbooks-10k)
+[Goodbooks-10K](https://github.com/zygmuntz/goodbooks-10k)
 
 ## Summary 
 - Six million user ratings for ten thousand most popular (with most ratings) books 
