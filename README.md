@@ -39,16 +39,17 @@ This project investigates predicting book bestseller status using various machin
 └── Simple_Model
 └── Second_model
 └── GNN
-└── main_v2
+└── preprocess_v2
 └── scratch_Fabio
+└── Preprocess
 └── quick_look
 
 ```
 - Simple_Model File : is containing the first model with the book-to-book graph based on ``To Read`` dataset. All the data processing, graph creations and model training are contained in this file.
 - Second_Model File : is containing the second model with the book-to-book graph based on ``Ratings`` dataset. All the data processing, graph creations and model training are contained in this file.
 - GNN File : is containing the attempt to solve the issues occured in the prediction of labels in GCN models.
-- Main File : is containing some visualisation and some preprocessing of data
-- Main_v2 : is containing graph creation of User-to-User, Visualisation, attemps to create Node2Vec
+- Preprocess : is containing some visualisation and some preprocessing of data
+- preprocess_v2 : is containing graph creation of User-to-User, Visualisation, attemps to create Node2Vec
 ## Dataset Structure
 ### Goodbooks-10k
 
