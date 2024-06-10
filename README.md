@@ -144,5 +144,5 @@ Several models are proposed for these project. Most of them are Linear models. A
 | GCN                   | All                  | 0.443     | 0.613    |
 
 
-### Report
+## Report
 You can find the report [here](./EE_452_NML_Mheni_Palmisano.pdf)
