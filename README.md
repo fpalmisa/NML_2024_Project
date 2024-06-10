@@ -18,7 +18,6 @@ EE-452 Network Machine Learning
 
 ## Abstract 
 This project investigates predicting book bestseller status using various machine learning models and graph-based features, highlighting the potential of linear models, the challenges faced by neural networks, and the benefits of incorporating statistical book features.
-keywords: Network Machine Learning, Logistic Regression, Book recommender, GNN, GCN
 
 ## Project structure
 ```
