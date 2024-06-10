@@ -100,7 +100,6 @@ https://www.goodreads.com/book/show/2767052
 https://www.goodreads.com/work/editions/2792775  
 
 Note that _book_id_ in **ratings.csv** and **to_read.csv** maps to _work_id_, not to _goodreads_book_id_, meaning that ratings for different editions are aggregated.
-```
 
 ## Data wrangling
 One of the datasets contains all the ratings given by users, amounting to nearly six million ratings. The number of users who have made ratings is $53,424$. This large volume of data needs to be analyzed, and some reductions should be made to handle it more easily. 
@@ -113,28 +112,32 @@ Additionally, there are two more datasets that are less used in this project: ``
 Several models are proposed for these project. Most of them are Linear models. A simple GNN model is also implemented.
 
 ## Results
-## Graph one Book-to-Book Trivial Case
+
+### Graph one Book-to-Book Trivial Case
 | Model                 | Features  |  Accuracy | F1-score |
-Logistic Regression         All         0.744       0.803
-Logistic Regression         Best        0.716       0.813
-Random Forest               Best        0.739       0.805
-Random Forest               All         0.748       0.814
-SVM                         All         0.718       0.807
+|-----------------------|-----------|-----------|----------|
+| Logistic Regression   | All       | 0.744     | 0.803    |
+| Logistic Regression   | Best      | 0.716     | 0.813    |
+| Random Forest         | Best      | 0.739     | 0.805    |
+| Random Forest         | All       | 0.748     | 0.814    |
+| SVM                   | All       | 0.718     | 0.807    |
 
-## Graph one Book-to-Book only with Graph properties
-| Model                 | Features           |  Accuracy | F1-score |
-Logistic Regression         some properties         0.746       0.683
-Logistic Regression         all properties          0.746       0.683
-Logistic Regression         Best features           0.754       0.692
-Simpler Neural Model        Best features(2L)       0.747       0.65
-Simpler Neural Model        Best features(3L)       0.754       0.69
+### Graph one Book-to-Book only with Graph properties
+| Model                 | Features             |  Accuracy | F1-score |
+|-----------------------|----------------------|-----------|----------|
+| Logistic Regression   | Some properties      | 0.746     | 0.683    |
+| Logistic Regression   | All properties       | 0.746     | 0.683    |
+| Logistic Regression   | Best features        | 0.754     | 0.692    |
+| Simpler Neural Model  | Best features (2L)   | 0.747     | 0.650    |
+| Simpler Neural Model  | Best features (3L)   | 0.754     | 0.690    |
 
-## Graph one Book-to-Book only with Graph properties
-| Model                 | Features           |  Accuracy | F1-score |
-Logistic Regression         all features            0.809       0.775
-Logistic Regression         best features           0.821       0.787
-Random Forest               Best features           0.829       0.800
-Random Forest               Grid Search             0.830       0.799
-Random Forest               Best + Standardize      0.754       0.69
-MLP                         All + Standardize       0.755       0.687
-GCN                         All                     0.443       0.613
+### Graph one Book-to-Book only with Graph properties (repeated section title corrected)
+| Model                 | Features             |  Accuracy | F1-score |
+|-----------------------|----------------------|-----------|----------|
+| Logistic Regression   | All features         | 0.809     | 0.775    |
+| Logistic Regression   | Best features        | 0.821     | 0.787    |
+| Random Forest         | Best features        | 0.829     | 0.800    |
+| Random Forest         | Grid Search          | 0.830     | 0.799    |
+| Random Forest         | Best + Standardize   | 0.754     | 0.690    |
+| MLP                   | All + Standardize    | 0.755     | 0.687    |
+| GCN                   | All                  | 0.443     | 0.613    |
