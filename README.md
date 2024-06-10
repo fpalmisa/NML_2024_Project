@@ -1,15 +1,11 @@
 <div align="center">
-<img src="./resources/logo-epfl.png" alt="Example Image" width="192" height="108">
-</div>
-
-<div align="center">
 Ecole Polytechnique Fédérale de Lausanne
 </div> 
 <div align="center">
 EE-452 Network Machine Learning
 </div> 
 
-# Road segmentation from satellite images
+# Goodreads Bestseller Detector System
 
 ## Table of Contents
 
