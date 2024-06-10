@@ -43,6 +43,7 @@ This project investigates predicting book bestseller status using various machin
 └── scratch_Fabio
 └── Preprocess
 └── quick_look
+└── EE_452_NML_Mheni_Palmisano.pdf
 
 ```
 - Simple_Model File : is containing the first model with the book-to-book graph based on ``To Read`` dataset. All the data processing, graph creations and model training are contained in this file.
@@ -50,6 +51,7 @@ This project investigates predicting book bestseller status using various machin
 - GNN File : is containing the attempt to solve the issues occured in the prediction of labels in GCN models.
 - Preprocess : is containing some visualisation and some preprocessing of data
 - preprocess_v2 : is containing graph creation of User-to-User, Visualisation, attemps to create Node2Vec
+- EE_452_NML_Mheni_Palmisano.pdf : is the Report of the Project
 ## Dataset Structure
 ### Goodbooks-10k
 
