@@ -13,3 +13,11 @@
 - Recommender system: predict user rating for unread books 
 - Clustering: Can we retrieve genres, or similar by network properties 
 - Define a book-to-book network and analyse
+
+## Structure of the project
+
+
+## Results of models
+
+
+## Report 
