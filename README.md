@@ -1,5 +1,3 @@
-<div align="center">
-Ecole Polytechnique Fédérale de Lausanne
 </div> 
 <div align="center">
 EE-452 Network Machine Learning
