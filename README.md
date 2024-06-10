@@ -15,6 +15,7 @@ EE-452 Network Machine Learning
 - [Data Wrangling](#data-wrangling)
 - [Models](#models)
 - [Results](#results)
+- [Report](#report)
 
 ## Abstract 
 This project investigates predicting book bestseller status using various machine learning models and graph-based features, highlighting the potential of linear models, the challenges faced by neural networks, and the benefits of incorporating statistical book features.
@@ -141,3 +142,7 @@ Several models are proposed for these project. Most of them are Linear models. A
 | Random Forest         | Best + Standardize   | 0.754     | 0.690    |
 | MLP                   | All + Standardize    | 0.755     | 0.687    |
 | GCN                   | All                  | 0.443     | 0.613    |
+
+
+### Report
+You can find the report [here](./NMLreport_Mheni_Palmisano)
